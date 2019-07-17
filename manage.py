@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    print("test1")
+    print("test2")
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "DRFdemo1.settings")
     try:
         from django.core.management import execute_from_command_line
